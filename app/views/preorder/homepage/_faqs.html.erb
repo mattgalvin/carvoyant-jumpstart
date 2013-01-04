@@ -4,29 +4,26 @@
     <ul>
       <li class=''>
         <details class=''>
-          <summary class=''>How do I setup Amazon Payments?</summary>
-          <p>You'll need to <a href="https://payments.amazon.com/sdui/sdui/accountstatus">create an Amazon Seller Central account</a>. Afterwards, get your access key and secret key from the "Integration" tab on your AWS account. <a href="https://payments.amazon.com/sdui/sdui/helpTab/Checkout-by-Amazon/Advanced-Integration-Help/Using-Your-Access-Key">Click here for more info</a>.
-          <br />
-          <br />
-          Once you have your access key and secret key, head over to <code>config/settings.yml</code>. Change <code>amazon_access_key</code> and <code>amazon_secret_key</code> appropriately.</p>
+          <summary class=''>Where can I stay updated about my order?</summary>
+          <p>We will be sending out email updates and you can go to our blog: carvoyant.tumblr.com</p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>Can I use another payments provider?</summary>
-          <p>Of course. We haven't built in support for other providers, but we recommend that you take a look at <a href="https://stripe.com">Stripe</a> or <a href="https://wepay.com">WePay</a>.</p>
+          <summary>Will Carvoyant work on my car?</summary>
+          <p>Most cars made in the US from 1996 on have an OBD port that is compatiable with our device.  All cars since 2000 are good to go.</p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>How do I edit the FAQ?</summary>
-          <p>The faq is a partial located in <code>app/views/preorder/homepage/_faq.html.erb</code> The <code>summary</code> tag is the title, the <code>p</code> is the body. Make sure to add an <code>li</code> tag for each FAQ entry.</p>
+          <summary>What kind of phone to I need?</summary>
+          <p>No phone required!  Our device sits on the cellular network (it is a small cell phone) so your car's data is streamed to Carvoyant without the need for a mobile app on your phone.</p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>How do I change around the images, product name, etc?</summary>
-          <p>The best way is in <code>config/settings.yml</code>. It has variables for several different parts, the video, the product name, the call to action button ("Fork Now"), and several more.
+          <summary>What will you do with my data?</summary>
+          <p>Here's where Carvoyant will blow away the competition...your data is your's!  You opt in to share certain aspects of your data with specific vendors.  Therefore, you can TELL vendors when you need their service...no spam - EVER!  We will not sell you data.
           </p>
         </details>
       </li>
@@ -34,34 +31,26 @@
     <ul class='col2'>
       <li>
         <details class=''>
-          <summary>How do I change the CSS?</summary>
-          <p>Head over to <code>app/assets/stylesheets/variables.css.scss</code>. It makes it easy to change around the elements used throughout the HTML.
-          <br />
-          <br />
-          Alternatively, you can dive right into the CSS, have a look at <code>app/assets/stylesheets/main.css.scss</code>.</p>
+          <summary>I'm an app developer, what's next?</summary>
+          <p>Sign up, get started, and we'll send you an API Key to your personal cars data to build something cool.</p>
         </details>
       </li>
       <li class=''>
         <details class=''>
-          <summary>Why did you release this?</summary>
-          <p>Hardware startups are less welcome on Kickstarter than they were 6 months ago. We needed to roll our own kickstarter, so we did. Other hardware startups probably will too, so we made it easier for them by open sourcing our way of doing it.</p>
+          <summary>Any way to bring the cost down?</summary>
+          <p>Get everyone you know for your local town to sign up.  Once we see 500 signups from a specific MSA we drop the price for the group from that MSA.  Group discounts!</p>
         </details>
       </li>
       <li class=''>
         <details class=''>
-          <summary class=''>What software stack does this use?</summary>
-          <p>It's a Ruby on Rails app that makes heavy use of SCSS, Kickstarter's wonderful <code>amazon_flex_pay</code> gem, and a hint of CoffeeScript.</p>
+          <summary class=''>How do I access my data?</summary>
+          <p>Plug our device into your car.  Register the device with your vehicle at dash.carvoyant.com and login any time to see what's going on.</p>
         </details>
       </li>
       <li class=''>
         <details class=''>
-          <summary class=''>How do I deploy it?</summary>
-          <p>We recommend using Heroku. We include a Procfile for you, so all you need to do is:
-          <p>
-            <p>Install the <a href="https://toolbelt.heroku.com/">Heroku Toolbelt</a></p>
-            <p>Run <code>heroku create</code> in Selfstarter's folder</code></p>
-            <p>Run <code>git push heroku master</code> in Selfstarter's folder</p>
-          </p>
+          <summary class=''>You mentioned something about service records, what's that all about?</summary>
+          <p>You can scan and email, or mail, or fax, your service records to Carvoyant. This is still a beta service, but we will digitize these records and have then available on your account for your review.  In time, our system will track what was done historically based on these records to help you better know what will need to be done, should be done, or is still under warranty!          </p>
         </details>
       </li>
     </ul>
