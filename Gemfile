@@ -26,6 +26,9 @@ group :development, :test do
   gem 'shoulda'
 end
 
+gem 'minitest'
+gem 'bigdecimal'
+
 # jQuery
 gem 'jquery-rails'
 
