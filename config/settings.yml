@@ -54,12 +54,12 @@ progress_text: "Jumpstarted!"
 # Call to action section
 
 # On Lockitron, it's "First Batch Ships in March 2013"
-ships: "First batches ship in March 2013"
+ships: "First batch ships in March 2013"
 
 # On Lockitron, it's "Reserve Now"
 call_to_action: "Reserve Now"
 # On Lockitron, this is "Only $149 for a limited time"
-price_human: "Only $169 with no data fees for a year!"
+price_human: "$169 with no data fees for a year!"
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
 dont_give_them_a_reason_to_say_no: "No charge today! When your Carvoyant device is ready to ship, we send you an email. Simply confirm and we'll finish payment and ship your Carvoyant device."
