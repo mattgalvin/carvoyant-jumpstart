@@ -13,7 +13,7 @@ module PreorderHelper
 
   def tweet_reserve_button
 	tweet_text = "Want to connect your car?"
-    raw "<a href='https://twitter.com/share?url=/' id='tweet_button' class='twitter-share-button twitter-button' data-url=#{request.scheme}//#{request.host}' data-via='#{Settings.product_name}' data-lang='en' data-count='vertical' data-text=\"#{tweet_text}\">Tweet</a>"
+    raw "<a href='https://twitter.com/share' id='tweet_button' class='twitter-share-button' data-text='#{tweet_text}' data-via='carvoyant'>Tweet</a>"
   end
 
   def video_url
