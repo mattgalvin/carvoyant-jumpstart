@@ -11,6 +11,11 @@ module PreorderHelper
     raw "<a href='https://twitter.com/share?url=/' id='tweet_button' class='twitter-share-button twitter-button' data-url=#{request.scheme}//#{request.host}' data-via='#{Settings.product_name}' data-lang='en' data-count='vertical' data-text=\"#{tweet_text}\">Tweet</a>"
   end
 
+  def tweet_reserve_button
+	tweet_text = "Want to connect your car?"
+    raw "<a href='https://twitter.com/share?url=/' id='tweet_button' class='twitter-share-button twitter-button' data-url=#{request.scheme}//#{request.host}' data-via='#{Settings.product_name}' data-lang='en' data-count='vertical' data-text=\"#{tweet_text}\">Tweet</a>"
+  end
+
   def video_url
     "#{Settings.video_embed_url}?" + case Settings.video_embed_url
     when /vimeo/
