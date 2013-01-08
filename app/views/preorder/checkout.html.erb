@@ -3,13 +3,13 @@
     <div class="main_content">
       <h3>Check out</h3>
       <p>
-        Let your backers know how their payment information will be handled.
+        Your credit card will NOT be charged until your Carvoyant device is ready to ship and you respond to our confirmation email.
         <br />
         <br />
         Enter your email address below.
       </p>
       <%= form_tag "/preorder/prefill", :id => "checkout" do %>
-        <%= email_field_tag "email", nil, :placeholder => "hello@lockitron.com", :required => "required", :id => "email" %>
+        <%= email_field_tag "email", nil, :placeholder => "hello@carvoyant.com", :required => "required", :id => "email" %>
         <%= hidden_field_tag "preorder", true %>
         <%= hidden_field_tag "quantity", params[:quantity] %>
         <%= submit_tag "Checkout", :class => "blue_button disabled", :id => "amazon_button" %>
