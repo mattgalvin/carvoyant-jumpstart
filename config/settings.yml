@@ -20,8 +20,7 @@ product_image_path: "my-product-image.png"
 value_proposition: "Your Car. Your Data. Your Control. Easy"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
-#video_embed_url: "https://www.youtube.com/embed/5erdKHM99Dc"
-video_embed_url: "http://youtu.be/5erdKHM99Dc?t=1s"
+video_embed_url: "https://www.youtube.com/embed/5erdKHM99Dc"
 
 # Amazon settings -- you'll need an Amazon Payments account, sign up here --> http://bit.ly/SGksTv
 
