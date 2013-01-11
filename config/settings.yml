@@ -14,7 +14,7 @@ product_name: "Carvoyant"
 
 # An image showcasing your product -- it'll show up when you pin your product
 # It should be in app/assets/images
-product_image_path: "my-product-image.png"
+product_image_path: "carvoyant-product-image.png"
 
 # The message on the preorder page, Lockitron's 
 value_proposition: "Your Car. Your Data. Your Control. Easy"
@@ -71,7 +71,7 @@ facebook_app_id: "1234567890"
 tweet_text: "to get my car data under my control."
 
 # Google Analytics
-google_id: "1234567890"
+google_id: "UA-29603671-2"
 
 # If you want to change the images for the key points (e.g. "Kickstarter is not a store")
 # They're in app/assets/images/#{pointer_number}-background.png
