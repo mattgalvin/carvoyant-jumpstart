@@ -3,8 +3,8 @@ module PreorderHelper
     raw "<div class=\"fb-like\" data-href=\"#{request.scheme}//#{request.host}\" data-send=\"false\" data-width=\"#{width}\" data-layout=\"button_count\" data-show-faces=\"#{show_faces}\"></div>"
   end
   def pin_it_button
-    image_url = URI.encode("#{request.scheme}://#{request.host}#{image_path(Settings.product_image_url)}")
-    raw "<a href='http://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}' class='pin-it-button' count-layout='vertical'><img border='0' src='//assets.pinterest.com/images/PinExt.png' title='Pin It' /></a>"
+#    image_url = URI.encode("#{request.scheme}://#{request.host}#{image-path(Settings.product_image_url)}")
+#    raw "<a href='http://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}' class='pin-it-button' count-layout='vertical'><img border='0' src='//assets.pinterest.com/images/PinExt.png' title='Pin It' /></a>"
   end
   def tweet_button
     tweet_text = "I'm #{Settings.primary_stat_verb} number #{number_with_delimiter @order.number, :delimiter => ","} #{Settings.tweet_text}!"
