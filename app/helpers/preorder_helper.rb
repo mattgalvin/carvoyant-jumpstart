@@ -7,8 +7,8 @@ module PreorderHelper
 #    raw "<a href='http://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}' class='pin-it-button' count-layout='vertical'><img border='0' src='//assets.pinterest.com/images/PinExt.png' title='Pin It' /></a>"
   end
   def tweet_button
-    tweet_text = "I'm #{Settings.primary_stat_verb} number #{number_with_delimiter @order.number, :delimiter => ","} #{Settings.tweet_text}!"
-    raw "<a href='https://twitter.com/share?url=/' id='tweet_button' class='twitter-share-button twitter-button' data-url=#{request.scheme}//#{request.host}' data-via='#{Settings.product_name}' data-lang='en' data-count='vertical' data-text=\"#{tweet_text}\">Tweet</a>"
+    tweet_text = "I'm #{Settings.primary_stat_verb} number #{number_with_delimiter Order.cumber, :delimiter => ","} #{Settings.tweet_text}!"
+    raw "<a href='https://twitter.com/share' id='tweet_button' class='twitter-share-button twitter-button' data-url=#{request.scheme}//#{request.host}' data-via='#{Settings.product_name}' data-lang='en' data-count='vertical' data-text=\"#{tweet_text}\">Tweet</a>"
   end
 
   def tweet_reserve_button
