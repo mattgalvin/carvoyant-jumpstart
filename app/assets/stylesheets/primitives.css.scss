@@ -186,7 +186,7 @@ h5 {
   -webkit-box-shadow:
     0 1px 1px $button_box_shadow_color /* drop shadow */,
     inset 0 -1px 1px $button_box_shadow_inset_color /* inner shadow */;
-  background-image: $button_top_gradient; /* gradient fill */
+  background-image: $button_ie9_gradient; /* gradient fill */
   background-image: -moz-linear-gradient(90deg, $button_top_gradient 0%, $button_bottom_gradient 100%); /* gradient fill */
   background-image: -o-linear-gradient(90deg, $button_top_gradient 0%, $button_bottom_gradient 100%); /* gradient fill */
   background-image: -webkit-linear-gradient(90deg, $button_top_gradient 0%, $button_bottom_gradient 100%); /* gradient fill */
