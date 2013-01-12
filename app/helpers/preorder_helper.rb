@@ -8,7 +8,7 @@ module PreorderHelper
   end
   def tweet_button
     tweet_text = "I'm #{Settings.primary_stat_verb} number #{number_with_delimiter Order.cumber, :delimiter => ","} #{Settings.tweet_text}!"
-    raw "<a href='https://twitter.com/share' id='tweet_button' class='twitter-share-button twitter-button' data-url=#{request.scheme}//#{request.host}' data-via='#{Settings.product_name}' data-lang='en' data-count='vertical' data-text=\"#{tweet_text}\">Tweet</a>"
+    raw "<a href='https://twitter.com/share' id='tweet_button' class='twitter-share-button twitter-button' data-via='#{Settings.product_name}' data-lang='en' data-count='vertical' data-text=\"#{tweet_text}\">Tweet</a>"
   end
 
   def tweet_reserve_button
