@@ -62,13 +62,13 @@ call_to_action: "Reserve Now"
 price_human: "$149 with no data fees for a year!"
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
-dont_give_them_a_reason_to_say_no: "No charge today! When your Carvoyant device is ready to ship, we send you an email. Simply confirm and we'll finish payment and ship your Carvoyant device."
+dont_give_them_a_reason_to_say_no: "No charge today! Jumpstarter pre-orders on our available hardware help Carvoyant drive everyone’s cost down as we extend the features already in place. Just before shipping we confirm your order, finish payment then send your Carvoyant enabled device."
 
 # Social Stuff
 facebook_app_id: "1234567890"
 # Tweets are prefixed with "I'm #{Settings.primary_stat} number X for #{Settings.product_name}"
 # Maybe mention something about your product vision -- e.g. "to replace keys with my phone"
-tweet_text: "to get my car data under my control."
+tweet_text: "to get my car data under my control"
 
 # Google Analytics
 google_id: "UA-29603671-2"
