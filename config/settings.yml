@@ -17,7 +17,7 @@ product_name: "Carvoyant"
 product_image_path: "carvoyant-product-image.png"
 
 # The message on the preorder page, Lockitron's 
-value_proposition: "Your Car. Your Data. Your Control. Easy"
+value_proposition: "Know More About Your Car, Be Safer, And Save Money.<br/>Connect Your Car Today"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
 video_embed_url: "https://www.youtube.com/embed/5erdKHM99Dc"
@@ -62,7 +62,8 @@ call_to_action: "Reserve Now"
 price_human: "$149 with no data fees for a year!"
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
-dont_give_them_a_reason_to_say_no: "No charge today! Jumpstarter pre-orders on our available hardware help Carvoyant drive everyone’s cost down as we extend the features already in place. Just before shipping we confirm your order, finish payment then send your Carvoyant enabled device."
+#dont_give_them_a_reason_to_say_no: "No charge today! Jumpstarter pre-orders on our available hardware help Carvoyant drive everyone’s cost down as we extend the features already in place. Just before shipping we confirm your order, finish payment then send your Carvoyant enabled device."
+dont_give_them_a_reason_to_say_no: "The product and hardware are ready to go. While we extend the features we already have in place we are using this pre-order site to increase our orders which will drive down everyone's cost before we ship in March.  Just before shipping we will confirm your order, finish payment then send your Carvoyant device."
 
 # Social Stuff
 facebook_app_id: "1234567890"
