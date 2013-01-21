@@ -17,7 +17,7 @@ product_name: "Carvoyant"
 product_image_path: "carvoyant-product-image.png"
 
 # The message on the preorder page, Lockitron's 
-value_proposition_1: "Know More About Your Car, Be Safer, And Save Money."
+value_proposition_1: "Know More About Your Car, Be Safer, Save Money."
 value_proposition_2: "Connect Your Car Today"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
