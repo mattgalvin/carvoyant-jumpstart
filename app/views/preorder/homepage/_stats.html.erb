@@ -1,6 +1,6 @@
 <div class="wrapper clearfix">
   <div id="video">
-    <iframe width='512' height='385' src="<%= video_url %>"></iframe>
+    <iframe width='512' height="288" src="<%= video_url %>"></iframe>
   </div>
 
   <div id="backing">
@@ -44,11 +44,23 @@
       <p id="ship_date"><%= Settings.ships %></p>
       <a href="/preorder/checkout" class="blue_button reserve"><%= Settings.call_to_action %></a>
       <p id="price"><%= Settings.price_human %></p>
-      <p><%= Settings.dont_give_them_a_reason_to_say_no %></p>
-      <%= like_button %>
-      <%= tweet_reserve_button %>
     </div>
     
   </div>
+</div>
   
+<div class="wrapper clearfix">
+	<div id="call_description">
+	  <p>
+		  The product and hardware are ready to go. While we extend the features we already have in place we are using this pre-order site to
+		  increase our orders which will drive down everyone's cost before we ship in March.  Just before shipping we will confirm your order, 
+		  finish payment then send your Carvoyant device.  If you're interested but you're not quite ready to reserve one, 
+		  <a target="_blank" href="http://carvoyant.wufoo.com/forms/p7x1p5/">click here</a> and we'll send you a reminder!
+	  </p>
+    </div>
+    <div id="social_media">
+	  <%= like_button %>
+	  <%= tweet_reserve_button %>
+	  <%= pin_it_button %>
+	</div>
 </div>

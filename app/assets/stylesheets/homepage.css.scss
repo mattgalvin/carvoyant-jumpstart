@@ -5,22 +5,45 @@
 @import "homepage/press";
 @import "homepage/faq";
 
+a
+{
+	text-color: $link_color;
+}
+
 #tweet_button
 {
   margin-top: 5px;
+}
+
+#social_media
+{
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  padding-top: 5px;
 }
 
 .fb-like 
 {
 	margin-left: 5px;
 	float:left;
+	width: 100px;
+	display: block;
+}
+
+.twitter 
+{
+	margin-left: 5px;
+	float:left;
+	width: 100px;
+	display: block;
 }
 
 #video 
 {
   float: left;
   width: 512px;
-  height: 385px;
+  height: 288px;
   background: #fff;
   -moz-box-shadow: 0 2px 6px rgba(0,0,0,.39); /* drop shadow */
   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.39); /* drop shadow */

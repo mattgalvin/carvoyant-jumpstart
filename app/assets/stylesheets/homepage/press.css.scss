@@ -15,27 +15,12 @@
       text-indent: -10000px;
     }
     a:hover {
-      opacity: 1;
+      opacity: 0.5;
     }
   }
-  #awesomeblog a
+  #techcrunch a
   {
-    background: url(image-path("")) no-repeat left center;
-    width: 176px;
-  }
-  #coolpaper a
-  {
-    background: url(image-path("")) no-repeat left center;
-    width: 109px;
-  }
-  #nicemag a
-  {
-    background: url(image-path("")) no-repeat left center;
-    width: 149px;
-  }
-  #readcrunch a
-  {
-    background: url(image-path("")) no-repeat left center;
-    width: 81px;
+    background: url(image-path("techcrunch.png")) no-repeat left center;
+    width: 96px;
   }
 }

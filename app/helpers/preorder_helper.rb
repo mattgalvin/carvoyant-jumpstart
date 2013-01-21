@@ -5,7 +5,10 @@ module PreorderHelper
   def pin_it_button
 #    image_url = URI.encode("#{request.scheme}://#{request.host}#{image-path(Settings.product_image_url)}")
 #    raw "<a href='http://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}' class='pin-it-button' count-layout='vertical'><img border='0' src='//assets.pinterest.com/images/PinExt.png' title='Pin It' /></a>"
+
+     raw "<a href=\"http://pinterest.com/carvoyant/\"><img src=\"http://passets-lt.pinterest.com/images/about/buttons/small-p-button.png\" width=\"16\" height=\"16\" alt=\"Follow Me on Pinterest\" /></a>"
   end
+
   def tweet_button
     tweet_text = "I'm #{Settings.primary_stat_verb} number #{number_with_delimiter Order.current, :delimiter => ","} #{Settings.tweet_text}!"
     raw "<a href='https://twitter.com/share' id='tweet_button' class='twitter-share-button twitter-button' data-via='#{Settings.product_name}' data-url='#{request.scheme}://#{request.host}' data-lang='en' data-count='vertical' data-text=\"#{tweet_text}\">Tweet</a>"
@@ -13,7 +16,7 @@ module PreorderHelper
 
   def tweet_reserve_button
 	tweet_text = "Want to connect your car?"
-    raw "<div><a href='https://twitter.com/share' id='tweet_button' class='twitter-share-button' data-text='#{tweet_text}' data-via='carvoyant'>Tweet</a></div>"
+    raw "<div class=\"twitter\"><a href='https://twitter.com/share' id='tweet_button' class='twitter-share-button' data-text='#{tweet_text}' data-via='carvoyant'>Tweet</a></div>"
   end
 
   def video_url
