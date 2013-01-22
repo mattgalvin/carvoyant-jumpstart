@@ -1,9 +1,11 @@
 <div class="wrapper clearfix">
   <div id="video">
     <iframe width='512' height="288" src="<%= video_url %>"></iframe>
+    <span class="video_description">Watch the video for more info.</span>
   </div>
 
   <div id="backing">
+    <span class="backing_description">The more ordered, the lower the final price!</span>
     <ul>
       <li class="stats" id="backers">
         <%= number_with_delimiter Order.current, :delimiter => "," %>
